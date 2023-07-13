@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slider, Typography } from '@mui/material';
+import { Slider } from '@mui/material';
 import styles from './SliderRange.module.css';
 
 interface SliderRangeProps {
@@ -19,7 +19,7 @@ const SliderRange = (props: SliderRangeProps) => {
 
   return (
     <div className={styles.container}>
-      <Typography className={styles.title}>{`${title}:`}</Typography>
+      <div className={styles.title}>{`${title}:`}</div>
       <Slider
         sx={{ maxWidth: '50%' }}
         max={maxRange}

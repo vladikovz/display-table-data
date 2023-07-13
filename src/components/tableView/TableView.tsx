@@ -31,14 +31,24 @@ const TableView = (props: TableViewProps) => {
   return (
     <TableContainer component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
-        <TableHead>
+        <TableHead sx={{ backgroundColor: '#e0e0e0' }}>
           <TableRow>
-            <TableCell>Name</TableCell>
-            <TableCell align="right">Industry</TableCell>
-            <TableCell align="right">Revenue</TableCell>
-            <TableCell align="right">Revenue growth</TableCell>
-            <TableCell align="right">Employees</TableCell>
-            <TableCell align="right">Headquarters</TableCell>
+            <TableCell sx={{ fontWeight: 'bold' }}>Name</TableCell>
+            <TableCell sx={{ fontWeight: 'bold' }} align="right">
+              Industry
+            </TableCell>
+            <TableCell sx={{ fontWeight: 'bold' }} align="right">
+              Revenue
+            </TableCell>
+            <TableCell sx={{ fontWeight: 'bold' }} align="right">
+              Revenue growth
+            </TableCell>
+            <TableCell sx={{ fontWeight: 'bold' }} align="right">
+              Employees
+            </TableCell>
+            <TableCell sx={{ fontWeight: 'bold' }} align="right">
+              Headquarters
+            </TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
