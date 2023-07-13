@@ -1,0 +1,902 @@
+[
+  {
+    "id": 100,
+    "name": "Nucor",
+    "industry": "Metals",
+    "revenue": 36.484,
+    "revenueGrowth": "81.2%",
+    "employees": 28.8,
+    "headquarters": "Charlotte, North Carolina"
+  },
+  {
+    "id": 99,
+    "name": "Northwestern Mutual",
+    "industry": "Insurance",
+    "revenue": 36.751,
+    "revenueGrowth": "8.8%",
+    "employees": 7.585,
+    "headquarters": "Milwaukee, Wisconsin"
+  },
+  {
+    "id": 98,
+    "name": "USAA",
+    "industry": "Financials",
+    "revenue": 37.47,
+    "revenueGrowth": "3.2%",
+    "employees": 37.335,
+    "headquarters": "San Antonio,Texas"
+  },
+  {
+    "id": 97,
+    "name": "CHS",
+    "industry": "Agriculture cooperative",
+    "revenue": 38.448,
+    "revenueGrowth": "1.4%",
+    "employees": 9.941,
+    "headquarters": "Inver Grove Heights, Minnesota"
+  },
+  {
+    "id": 96,
+    "name": "General Dynamics",
+    "industry": "Airspace and defense",
+    "revenue": 38.469,
+    "revenueGrowth": "8.7%",
+    "employees": 103.1,
+    "headquarters": "Reston, Virginia"
+  },
+  {
+    "id": 95,
+    "name": "Coca-Cola Company",
+    "industry": "Beverages",
+    "revenue": 38.655,
+    "revenueGrowth": "17.1%",
+    "employees": 79,
+    "headquarters": "Atlanta,Georgia"
+  },
+  {
+    "id": 94,
+    "name": "Thermo Fisher Scientific",
+    "industry": "Laboratory instruments",
+    "revenue": 39.211,
+    "revenueGrowth": "21.7%",
+    "employees": 129,
+    "headquarters": "Waltham, Massachusetts"
+  },
+  {
+    "id": 93,
+    "name": "Oracle Corporation",
+    "industry": "Software",
+    "revenue": 40.479,
+    "revenueGrowth": "3.6%",
+    "employees": 132,
+    "headquarters": "Austin, Texas"
+  },
+  {
+    "id": 92,
+    "name": "TIAA",
+    "industry": "Insurance",
+    "revenue": 40.526,
+    "revenueGrowth": "2.6%",
+    "employees": 15.065,
+    "headquarters": "New York City, New York"
+  },
+  {
+    "id": 91,
+    "name": "Enterprise Products",
+    "industry": "Petroleum industry",
+    "revenue": 40.807,
+    "revenueGrowth": "50.0%",
+    "employees": 6.911,
+    "headquarters": "Houston, Texas"
+  },
+  {
+    "id": 90,
+    "name": "Plains All American Pipeline",
+    "industry": "Petroleum industry",
+    "revenue": 42.078,
+    "revenueGrowth": "80.7%",
+    "employees": 4.1,
+    "headquarters": "Houston, Texas"
+  },
+  {
+    "id": 89,
+    "name": "StoneX Group",
+    "industry": "Financials",
+    "revenue": 42.534,
+    "revenueGrowth": "21.4%",
+    "employees": 3.242,
+    "headquarters": "New York City, New York"
+  },
+  {
+    "id": 88,
+    "name": "Abbott Laboratories",
+    "industry": "Medical devices",
+    "revenue": 43.075,
+    "revenueGrowth": "24.5%",
+    "employees": 113,
+    "headquarters": "Chicago, Illinois"
+  },
+  {
+    "id": 87,
+    "name": "American Express",
+    "industry": "Financial",
+    "revenue": 43.663,
+    "revenueGrowth": "14.3%",
+    "employees": 64,
+    "headquarters": "New York City, New York"
+  },
+  {
+    "id": 86,
+    "name": "John Deere",
+    "industry": "Agriculture manufacturing",
+    "revenue": 44.024,
+    "revenueGrowth": "23.9%",
+    "employees": 75.55,
+    "headquarters": "Moline, Illinois"
+  },
+  {
+    "id": 85,
+    "name": "Nike",
+    "industry": "Apparel",
+    "revenue": 44.538,
+    "revenueGrowth": "19.1%",
+    "employees": 73.3,
+    "headquarters": "Beaverton, Oregon"
+  },
+  {
+    "id": 84,
+    "name": "GSK plc",
+    "industry": "Pharmaceuticals",
+    "revenue": 44.7,
+    "revenueGrowth": "3.0%",
+    "employees": 97,
+    "headquarters": "Philadelphia, Pennsylvania"
+  },
+  {
+    "id": 83,
+    "name": "Bristol-Myers Squibb",
+    "industry": "Pharmaceutical industry",
+    "revenue": 46.385,
+    "revenueGrowth": "9.1%",
+    "employees": 32.2,
+    "headquarters": "New York City,New York"
+  },
+  {
+    "id": 82,
+    "name": "Tyson Foods",
+    "industry": "Food Processing",
+    "revenue": 47.049,
+    "revenueGrowth": "8.9%",
+    "employees": 137,
+    "headquarters": "Springdale, Arkansas"
+  },
+  {
+    "id": 81,
+    "name": "Nationwide Mutual Insurance Company",
+    "industry": "Financial",
+    "revenue": 47.376,
+    "revenueGrowth": "13.0%",
+    "employees": 24.134,
+    "headquarters": "Columbus, Ohio"
+  },
+  {
+    "id": 80,
+    "name": "Progressive Corporation",
+    "industry": "Insurance",
+    "revenue": 47.702,
+    "revenueGrowth": "11.8%",
+    "employees": 49.077,
+    "headquarters": "Mayfield Village, Ohio"
+  },
+  {
+    "id": 79,
+    "name": "Liberty Mutual Group",
+    "industry": "Insurance",
+    "revenue": 48.2,
+    "revenueGrowth": "10.1%",
+    "employees": 45,
+    "headquarters": "Boston, Massachusetts"
+  },
+  {
+    "id": 78,
+    "name": "ConocoPhillips",
+    "industry": "Petroleum industry",
+    "revenue": 48.349,
+    "revenueGrowth": "151.1%",
+    "employees": 9.9,
+    "headquarters": "Houston, Texas"
+  },
+  {
+    "id": 77,
+    "name": "Publix",
+    "industry": "Retail",
+    "revenue": 48.394,
+    "revenueGrowth": "7.1%",
+    "employees": 232,
+    "headquarters": "Lakeland, Florida"
+  },
+  {
+    "id": 76,
+    "name": "TJX",
+    "industry": "Retail",
+    "revenue": 48.55,
+    "revenueGrowth": "51.1%",
+    "employees": 340,
+    "headquarters": "Framingham, Massachusetts"
+  },
+  {
+    "id": 75,
+    "name": "Cisco",
+    "industry": "Telecom Hardware Manufacturing",
+    "revenue": 49.818,
+    "revenueGrowth": "1.0%",
+    "employees": 79.5,
+    "headquarters": "San Jose, California"
+  },
+  {
+    "id": 74,
+    "name": "Caterpillar",
+    "industry": "Machinery",
+    "revenue": 50.971,
+    "revenueGrowth": "22.1%",
+    "employees": 107.7,
+    "headquarters": "Deerfield, Illinois"
+  },
+  {
+    "id": 72,
+    "name": "New York Life Insurance Company",
+    "industry": "Insurance",
+    "revenue": 51.199,
+    "revenueGrowth": "9.6%",
+    "employees": 13.344,
+    "headquarters": "New York City, New York"
+  },
+  {
+    "id": 71,
+    "name": "Merck & Co.",
+    "industry": "Pharmaceutical industry",
+    "revenue": 51.216,
+    "revenueGrowth": "6.7%",
+    "employees": 67.5,
+    "headquarters": "Kenilworth, New Jersey"
+  },
+  {
+    "id": 70,
+    "name": "Sysco",
+    "industry": "Food Service",
+    "revenue": 51.298,
+    "revenueGrowth": "3.0%",
+    "employees": 57.71,
+    "headquarters": "Houston, Texas"
+  },
+  {
+    "id": 73,
+    "name": "Novartis",
+    "industry": "Pharmaceuticals",
+    "revenue": 51.332,
+    "revenueGrowth": "6.0%",
+    "employees": 110,
+    "headquarters": "Cambridge, Massachusetts"
+  },
+  {
+    "id": 69,
+    "name": "Charter Communications",
+    "industry": "Telecommunications",
+    "revenue": 51.682,
+    "revenueGrowth": "7.5%",
+    "employees": 93.7,
+    "headquarters": "Stamford, Connecticut"
+  },
+  {
+    "id": 68,
+    "name": "Best Buy",
+    "industry": "Retail",
+    "revenue": 51.761,
+    "revenueGrowth": "9.5%",
+    "employees": 81.375,
+    "headquarters": "Richfield, Minnesota"
+  },
+  {
+    "id": 67,
+    "name": "AIG",
+    "industry": "Insurance",
+    "revenue": 52.057,
+    "revenueGrowth": "19.0%",
+    "employees": 36.6,
+    "headquarters": "New York City, New York"
+  },
+  {
+    "id": 66,
+    "name": "Allstate",
+    "industry": "Insurance",
+    "revenue": 53.228,
+    "revenueGrowth": "18.8%",
+    "employees": 54.5,
+    "headquarters": "Northfield Township, Cook County, Illinois"
+  },
+  {
+    "id": 65,
+    "name": "Tesla",
+    "industry": "Automotive and Energy",
+    "revenue": 53.823,
+    "revenueGrowth": "70.7%",
+    "employees": 99.29,
+    "headquarters": "Austin, Texas"
+  },
+  {
+    "id": 64,
+    "name": "Dow Chemical Company",
+    "industry": "Chemical industry",
+    "revenue": 54.968,
+    "revenueGrowth": "42.6%",
+    "employees": 35.7,
+    "headquarters": "Midland, Michigan"
+  },
+  {
+    "id": 63,
+    "name": "AbbVie",
+    "industry": "Pharmaceutical industry",
+    "revenue": 56.197,
+    "revenueGrowth": "22.7%",
+    "employees": 50,
+    "headquarters": "Lake Bluff, Illinois"
+  },
+  {
+    "id": 62,
+    "name": "HCA Healthcare",
+    "industry": "Healthcare",
+    "revenue": 58.752,
+    "revenueGrowth": "14.0%",
+    "employees": 244,
+    "headquarters": "Nashville, Tennessee"
+  },
+  {
+    "id": 61,
+    "name": "Morgan Stanley",
+    "industry": "Financials",
+    "revenue": 61.121,
+    "revenueGrowth": "17.4%",
+    "employees": 74.814,
+    "headquarters": "New York City, New York"
+  },
+  {
+    "id": 60,
+    "name": "Boeing",
+    "industry": "Aerospaceanddefense",
+    "revenue": 62.286,
+    "revenueGrowth": "7.1%",
+    "employees": 142,
+    "headquarters": "Chicago, Illinois"
+  },
+  {
+    "id": 59,
+    "name": "HP",
+    "industry": "Technology",
+    "revenue": 63.487,
+    "revenueGrowth": "12.1%",
+    "employees": 51,
+    "headquarters": "Palo Alto, California"
+  },
+  {
+    "id": 58,
+    "name": "Raytheon Technologies",
+    "industry": "Conglomerate",
+    "revenue": 64.388,
+    "revenueGrowth": "13.8%",
+    "employees": 174,
+    "headquarters": "Waltham, Massachusetts"
+  },
+  {
+    "id": 57,
+    "name": "Goldman Sachs",
+    "industry": "Financials",
+    "revenue": 64.989,
+    "revenueGrowth": "2.7%",
+    "employees": 43.9,
+    "headquarters": "New York City, New York"
+  },
+  {
+    "id": 56,
+    "name": "Freddie Mac",
+    "industry": "Financials",
+    "revenue": 65.898,
+    "revenueGrowth": "0.5%",
+    "employees": 7.301,
+    "headquarters": "McLean, Virginia"
+  },
+  {
+    "id": 55,
+    "name": "Lockheed Martin",
+    "industry": "Aerospace and Defense",
+    "revenue": 67.044,
+    "revenueGrowth": "2.5%",
+    "employees": 114,
+    "headquarters": "Bethesda, Maryland"
+  },
+  {
+    "id": 53,
+    "name": "The Walt Disney Company",
+    "industry": "Media",
+    "revenue": 67.418,
+    "revenueGrowth": "3.1%",
+    "employees": 171,
+    "headquarters": "Burbank, California"
+  },
+  {
+    "id": 54,
+    "name": "Energy Transfer Partners",
+    "industry": "Petroleum industry",
+    "revenue": 67.418,
+    "revenueGrowth": "73.1%",
+    "employees": 12.558,
+    "headquarters": "Dallas, Texas"
+  },
+  {
+    "id": 52,
+    "name": "Albertsons",
+    "industry": "Retail",
+    "revenue": 69.69,
+    "revenueGrowth": "11.6%",
+    "employees": 300,
+    "headquarters": "Boise, Idaho"
+  },
+  {
+    "id": 51,
+    "name": "Prudential Financial",
+    "industry": "Financials",
+    "revenue": 70.934,
+    "revenueGrowth": "24.4%",
+    "employees": 40.916,
+    "headquarters": "Newark, New Jersey"
+  },
+  {
+    "id": 50,
+    "name": "MetLife",
+    "industry": "Financials",
+    "revenue": 71.08,
+    "revenueGrowth": "4.8%",
+    "employees": 43,
+    "headquarters": "New York City, New York"
+  },
+  {
+    "id": 49,
+    "name": "IBM",
+    "industry": "Technology",
+    "revenue": 72.344,
+    "revenueGrowth": "1.7%",
+    "employees": 297.8,
+    "headquarters": "Armonk, New York"
+  },
+  {
+    "id": 48,
+    "name": "General Electric",
+    "industry": "Conglomerate",
+    "revenue": 74.196,
+    "revenueGrowth": "6.8%",
+    "employees": 168,
+    "headquarters": "Boston, Massachusetts"
+  },
+  {
+    "id": 47,
+    "name": "Procter & Gamble",
+    "industry": "Consumer products Manufacturing",
+    "revenue": 76.118,
+    "revenueGrowth": "7.3%",
+    "employees": 101,
+    "headquarters": "Cincinnati, Ohio"
+  },
+  {
+    "id": 46,
+    "name": "Intel",
+    "industry": "Technology",
+    "revenue": 79.024,
+    "revenueGrowth": "1.5%",
+    "employees": 121.1,
+    "headquarters": "Santa Clara, California"
+  },
+  {
+    "id": 45,
+    "name": "PepsiCo",
+    "industry": "Beverage",
+    "revenue": 79.474,
+    "revenueGrowth": "12.9%",
+    "employees": 309,
+    "headquarters": "Purchase, New York"
+  },
+  {
+    "id": 44,
+    "name": "Citigroup",
+    "industry": "Financials",
+    "revenue": 79.865,
+    "revenueGrowth": "10.1%",
+    "employees": 221.768,
+    "headquarters": "New York City, New York"
+  },
+  {
+    "id": 43,
+    "name": "Pfizer",
+    "industry": "Pharmaceutical industry",
+    "revenue": 81.288,
+    "revenueGrowth": "94.0%",
+    "employees": 79,
+    "headquarters": "New York City, New York"
+  },
+  {
+    "id": 41,
+    "name": "Wells Fargo",
+    "industry": "Financials",
+    "revenue": 82.407,
+    "revenueGrowth": "2.6%",
+    "employees": 247.848,
+    "headquarters": "San Francisco, California"
+  },
+  {
+    "id": 42,
+    "name": "State Farm",
+    "industry": "Financials",
+    "revenue": 82.407,
+    "revenueGrowth": "4.2%",
+    "employees": 53.586,
+    "headquarters": "Bloomington, Illinois"
+  },
+  {
+    "id": 40,
+    "name": "Humana",
+    "industry": "Health Insurance",
+    "revenue": 83.064,
+    "revenueGrowth": "7.7%",
+    "employees": 95.5,
+    "headquarters": "Louisville, Kentucky"
+  },
+  {
+    "id": 39,
+    "name": "FedEx",
+    "industry": "Transportation",
+    "revenue": 83.959,
+    "revenueGrowth": "21.3%",
+    "employees": 484,
+    "headquarters": "Memphis, Tennessee"
+  },
+  {
+    "id": 38,
+    "name": "Archer Daniels Midland",
+    "industry": "Food industry",
+    "revenue": 85.959,
+    "revenueGrowth": "32.5%",
+    "employees": 39.979,
+    "headquarters": "Chicago, Illinois"
+  },
+  {
+    "id": 37,
+    "name": "Johnson & Johnson",
+    "industry": "Pharmaceutical industry",
+    "revenue": 93.775,
+    "revenueGrowth": "13.6%",
+    "employees": 141.7,
+    "headquarters": "New Brunswick, New Jersey"
+  },
+  {
+    "id": 36,
+    "name": "Bank of America",
+    "industry": "Financials",
+    "revenue": 93.851,
+    "revenueGrowth": "0.1%",
+    "employees": 208.248,
+    "headquarters": "Charlotte, North Carolina"
+  },
+  {
+    "id": 35,
+    "name": "Lowe's",
+    "industry": "Retail",
+    "revenue": 96.25,
+    "revenueGrowth": "7.4%",
+    "employees": 270,
+    "headquarters": "Mooresville, North Carolina"
+  },
+  {
+    "id": 34,
+    "name": "United Parcel Service",
+    "industry": "Transportation",
+    "revenue": 97.287,
+    "revenueGrowth": "15.0%",
+    "employees": 400.945,
+    "headquarters": "Atlanta, Georgia"
+  },
+  {
+    "id": 33,
+    "name": "Fannie Mae",
+    "industry": "Financials",
+    "revenue": 101.543,
+    "revenueGrowth": "4.6%",
+    "employees": 7.4,
+    "headquarters": "Washington, D.C."
+  },
+  {
+    "id": 32,
+    "name": "Target Corporation",
+    "industry": "Retail",
+    "revenue": 106.005,
+    "revenueGrowth": "13.3%",
+    "employees": 450,
+    "headquarters": "Minneapolis, Minnesota"
+  },
+  {
+    "id": 31,
+    "name": "Dell Technologies",
+    "industry": "Technology",
+    "revenue": 106.995,
+    "revenueGrowth": "13.6%",
+    "employees": 133,
+    "headquarters": "Round Rock, Texas"
+  },
+  {
+    "id": 30,
+    "name": "Valero Energy",
+    "industry": "Petroleum industry",
+    "revenue": 108.332,
+    "revenueGrowth": "80.2%",
+    "employees": 9.804,
+    "headquarters": "San Antonio, Texas"
+  },
+  {
+    "id": 29,
+    "name": "Phillips 66",
+    "industry": "Petroleum industry",
+    "revenue": 114.852,
+    "revenueGrowth": "75.4%",
+    "employees": 14,
+    "headquarters": "Houston, Texas"
+  },
+  {
+    "id": 28,
+    "name": "Comcast",
+    "industry": "Telecommunications",
+    "revenue": 116.385,
+    "revenueGrowth": "12.4%",
+    "employees": 189,
+    "headquarters": "Philadelphia, Pennsylvania"
+  },
+  {
+    "id": 27,
+    "name": "Meta Platforms",
+    "industry": "Technology",
+    "revenue": 117.385,
+    "revenueGrowth": "37.2%",
+    "employees": 71.97,
+    "headquarters": "Menlo Park, California"
+  },
+  {
+    "id": 26,
+    "name": "Centene",
+    "industry": "Healthcare",
+    "revenue": 125.982,
+    "revenueGrowth": "13.4%",
+    "employees": 72.5,
+    "headquarters": "St. Louis, Missouri"
+  },
+  {
+    "id": 25,
+    "name": "General Motors",
+    "industry": "Automotive",
+    "revenue": 127.004,
+    "revenueGrowth": "3.7%",
+    "employees": 157,
+    "headquarters": "Detroit, Michigan"
+  },
+  {
+    "id": 24,
+    "name": "JPMorgan Chase",
+    "industry": "Financial services",
+    "revenue": 127.202,
+    "revenueGrowth": "1.8%",
+    "employees": 271.025,
+    "headquarters": "New York City, New York"
+  },
+  {
+    "id": 23,
+    "name": "Verizon Communications",
+    "industry": "Telecommunications",
+    "revenue": 133.613,
+    "revenueGrowth": "4.1%",
+    "employees": 118.4,
+    "headquarters": "New York City, New York"
+  },
+  {
+    "id": 22,
+    "name": "Ford Motor Company",
+    "industry": "Automotive industry",
+    "revenue": 136.341,
+    "revenueGrowth": "7.2%",
+    "employees": 183,
+    "headquarters": "Dearborn, Michigan"
+  },
+  {
+    "id": 21,
+    "name": "Kroger",
+    "industry": "Retail",
+    "revenue": 137.888,
+    "revenueGrowth": "4.1%",
+    "employees": 420,
+    "headquarters": "Cincinnati, Ohio"
+  },
+  {
+    "id": 20,
+    "name": "Elevance Health",
+    "industry": "Healthcare",
+    "revenue": 138.639,
+    "revenueGrowth": "13.8%",
+    "employees": 98.2,
+    "headquarters": "Indianapolis, Indiana"
+  },
+  {
+    "id": 19,
+    "name": "Marathon Petroleum",
+    "industry": "Petroleum industry",
+    "revenue": 141.032,
+    "revenueGrowth": "58.5%",
+    "employees": 17.7,
+    "headquarters": "Findlay, Ohio"
+  },
+  {
+    "id": 18,
+    "name": "Walgreens Boots Alliance",
+    "industry": "Pharmaceutical industry",
+    "revenue": 148.579,
+    "revenueGrowth": "6.5%",
+    "employees": 258.5,
+    "headquarters": "Deerfield, Illinois"
+  },
+  {
+    "id": 17,
+    "name": "The Home Depot",
+    "industry": "Retail",
+    "revenue": 151.157,
+    "revenueGrowth": "14.4%",
+    "employees": 490.6,
+    "headquarters": "Atlanta, Georgia"
+  },
+  {
+    "id": 16,
+    "name": "Chevron Corporation",
+    "industry": "Petroleum industry",
+    "revenue": 162.465,
+    "revenueGrowth": "71.6%",
+    "employees": 42.595,
+    "headquarters": "San Ramon, California"
+  },
+  {
+    "id": 15,
+    "name": "Cardinal Health",
+    "industry": "Healthcare",
+    "revenue": 162.467,
+    "revenueGrowth": "6.2%",
+    "employees": 46.827,
+    "headquarters": "Dublin, Ohio"
+  },
+  {
+    "id": 14,
+    "name": "AT&T",
+    "industry": "Conglomerate",
+    "revenue": 168.864,
+    "revenueGrowth": "1.7%",
+    "employees": 202.6,
+    "headquarters": "Dallas, Texas"
+  },
+  {
+    "id": 13,
+    "name": "Cigna",
+    "industry": "Health Insurance",
+    "revenue": 174.078,
+    "revenueGrowth": "8.5%",
+    "employees": 72.963,
+    "headquarters": "Bloomfield, Connecticut"
+  },
+  {
+    "id": 12,
+    "name": "Costco",
+    "industry": "Retail",
+    "revenue": 195.929,
+    "revenueGrowth": "17.5%",
+    "employees": 288,
+    "headquarters": "Issaquah, Washington"
+  },
+  {
+    "id": 11,
+    "name": "Microsoft",
+    "industry": "Technology",
+    "revenue": 198.087,
+    "revenueGrowth": "17.5%",
+    "employees": 181,
+    "headquarters": "Redmond, Washington"
+  },
+  {
+    "id": 10,
+    "name": "AmerisourceBergen",
+    "industry": "Pharmaceutical industry",
+    "revenue": 213.989,
+    "revenueGrowth": "12.7%",
+    "employees": 40,
+    "headquarters": "Chesterbrook, Pennsylvania"
+  },
+  {
+    "id": 9,
+    "name": "McKesson Corporation",
+    "industry": "Health",
+    "revenue": 238.228,
+    "revenueGrowth": "3.1%",
+    "employees": 67.5,
+    "headquarters": "Irving, Texas"
+  },
+  {
+    "id": 8,
+    "name": "Alphabet",
+    "industry": "Technology",
+    "revenue": 257.637,
+    "revenueGrowth": "41.2%",
+    "employees": 156,
+    "headquarters": "Mountain View, California"
+  },
+  {
+    "id": 7,
+    "name": "Berkshire Hathaway",
+    "industry": "Conglomerate",
+    "revenue": 276.094,
+    "revenueGrowth": "12.5%",
+    "employees": 372,
+    "headquarters": "Omaha, Nebraska"
+  },
+  {
+    "id": 6,
+    "name": "Exxon Mobil",
+    "industry": "Petroleum industry",
+    "revenue": 285.64,
+    "revenueGrowth": "57.4%",
+    "employees": 63,
+    "headquarters": "Spring, Texas"
+  },
+  {
+    "id": 5,
+    "name": "UnitedHealth Group",
+    "industry": "Healthcare",
+    "revenue": 287.597,
+    "revenueGrowth": "11.8%",
+    "employees": 350,
+    "headquarters": "Minnetonka, Minnesota"
+  },
+  {
+    "id": 4,
+    "name": "CVS Health",
+    "industry": "Healthcare",
+    "revenue": 292.111,
+    "revenueGrowth": "32.0%",
+    "employees": 258,
+    "headquarters": "Woonsocket, Rhode Island"
+  },
+  {
+    "id": 3,
+    "name": "Apple",
+    "industry": "Electronics industry",
+    "revenue": 365.817,
+    "revenueGrowth": "33.2%",
+    "employees": 154,
+    "headquarters": "Cupertino, California"
+  },
+  {
+    "id": 2,
+    "name": "Amazon",
+    "industry": "RetailandCloud Computing",
+    "revenue": 469.822,
+    "revenueGrowth": "21.7%",
+    "employees": "1,608,000",
+    "headquarters": "Seattle, Washington"
+  },
+  {
+    "id": 1,
+    "name": "Walmart",
+    "industry": "General merchandisers",
+    "revenue": 572.754,
+    "revenueGrowth": "2.4%",
+    "employees": "2,300,000",
+    "headquarters": "Bentonville, Arkansas"
+  }
+]
