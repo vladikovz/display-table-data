@@ -6,3 +6,8 @@ export const addCharityFinancial = (payload: CharityFinancial[]): CharityFinanci
   type: CharityFinancialActionTypes.ADD_ITEMS,
   payload,
 });
+
+export const filterCharityFinancial = (payload: number[]): CharityFinancialAction => ({
+  type: CharityFinancialActionTypes.FILTERED_ITEMS,
+  payload,
+});
