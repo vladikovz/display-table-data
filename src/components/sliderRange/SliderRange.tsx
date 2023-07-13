@@ -21,7 +21,7 @@ const SliderRange = (props: SliderRangeProps) => {
     <div className={styles.container}>
       <Typography className={styles.title}>{`${title}:`}</Typography>
       <Slider
-        className={styles.slider}
+        sx={{ maxWidth: '50%' }}
         max={maxRange}
         value={value}
         onChange={handleChange}
