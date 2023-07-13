@@ -7,6 +7,7 @@ import styles from './MainPage.module.css';
 import { filterCharityFinancial } from '../store/actions/charityFinancialActions';
 import SliderRange from '../components/sliderRange/SliderRange';
 import Spinner from '../components/spinner/Spinner';
+import { useDebounce } from '../hooks/useDebounce';
 
 const MainPage = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
@@ -30,17 +31,15 @@ const MainPage = () => {
     dispatch(filterCharityFinancial(value));
   };
 
+  const debouncedFilter = useDebounce(handleFilterRangeChange, 500);
+
   if (isLoading) {
     return <Spinner />;
   }
 
   return (
     <div className={styles.container}>
-      <SliderRange
-        maxRange={maxRevenueLength}
-        onChange={handleFilterRangeChange}
-        title={'Revenue range'}
-      />
+      <SliderRange maxRange={maxRevenueLength} onChange={debouncedFilter} title={'Revenue range'} />
       <TableView data={filteredCharityFinancials} />
     </div>
   );
