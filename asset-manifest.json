@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/display-table-data/static/css/main.681d3485.css",
+    "main.js": "/display-table-data/static/js/main.3f772100.js",
+    "index.html": "/display-table-data/index.html",
+    "main.681d3485.css.map": "/display-table-data/static/css/main.681d3485.css.map",
+    "main.3f772100.js.map": "/display-table-data/static/js/main.3f772100.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.681d3485.css",
+    "static/js/main.3f772100.js"
+  ]
+}
